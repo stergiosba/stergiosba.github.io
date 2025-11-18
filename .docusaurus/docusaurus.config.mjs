@@ -28,10 +28,11 @@ export default {
     },
     "experimental_router": "browser"
   },
-  "url": "https://your-docusaurus-site.example.com",
+  "url": "https://stergiosba.github.io",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "deploymentBranch": "gh-pages",
+  "organizationName": "stergiosba",
+  "projectName": "stergiosba.github.io",
   "onBrokenLinks": "throw",
   "i18n": {
     "defaultLocale": "en",
