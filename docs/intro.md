@@ -1,47 +1,31 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 ---
 
-# Tutorial Intro
+# Projects
 
-Let's discover **Docusaurus in less than 5 minutes**.
+During my PhD I have had the pleasure of working on many different problems at the Human Oriented Robotics and Control lab at the University of Delaware. 
 
-## Getting Started
 
-Get started by **creating a new site**.
+My research focuses on enhancing the physical intelligence of autonomous robots using Deep Reinforcement Learning. Applications of his work include the development of an autonomous probing agent for swarm leader identification and the creation of a whole-body loco-manipulation controller for quadruped robots.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+:::tip
+Please contact me directly for possible collaborations.
+:::
 
-### What you'll need
+--- 
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+# Swarm
 
-## Generate a new site
+The first three years of my PhD I focused on
+- Creating a swarm research testbed to implement and study robotic swarms' algorithms.
+- Developing a Deep Reinforcement Learning framework to study privacy in robotic swarms. 
 
-Generate a new Docusaurus site using the **classic template**.
 
-The classic template will automatically be added to your project after you run the command:
+This work resulted in two (2) conference publications and one (1) journal publication under review. 
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+---
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+# Quadruped
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+This is my current work so please stay tuned for updates here.

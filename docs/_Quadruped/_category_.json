@@ -1,0 +1,8 @@
+{
+  "label": "Quadruped",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Complex loco-manipulation of objects using a quadruped robot."
+  }
+}

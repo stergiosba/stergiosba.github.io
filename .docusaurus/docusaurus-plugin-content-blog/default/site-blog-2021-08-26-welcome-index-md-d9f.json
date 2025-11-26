@@ -25,7 +25,6 @@
       "description": "Docusaurus tag description"
     }
   ],
-  "readingTime": 0.56,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -74,9 +73,5 @@
       "docusaurus"
     ]
   },
-  "unlisted": false,
-  "nextItem": {
-    "title": "MDX Blog Post",
-    "permalink": "/blog/mdx-blog-post"
-  }
+  "unlisted": false
 }

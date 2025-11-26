@@ -1,0 +1,27 @@
+{
+  "id": "Swarm/tase",
+  "title": "On Swarm Leader Identification using Probing Policies",
+  "description": "Journal: IEEE Transactions on Automation Science and Engineering (T-ASE)",
+  "source": "@site/docs/Swarm/tase.md",
+  "sourceDirName": "Swarm",
+  "slug": "/Swarm/tase",
+  "permalink": "/docs/Swarm/tase",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Swarm/tase.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Learning Adversarial Policies for Swarm Leader Identification Using a Probing Agent",
+    "permalink": "/docs/Swarm/icra"
+  },
+  "next": {
+    "title": "ROS2 Swarm Testbed",
+    "permalink": "/docs/category/ros2-swarm-testbed"
+  }
+}

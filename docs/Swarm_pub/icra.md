@@ -1,0 +1,12 @@
+---
+sidebar_position: 5
+---
+
+# Learning Adversarial Policies for Swarm Leader Identification Using a Probing Agent
+
+Venue: 2025 IEEE International Conference on Robotics and Automation (ICRA).
+
+Date of Conference: 19-23 May 2025 
+
+## Abstract:
+This study introduces a novel approach to swarm leader identification (SLI) in multi-agent robot systems by employing a physical adversary interacting with the swarm in the same environment. We develop a new simulation environment to study the SLI problem and train an adversary, which we term the prober, to solve the SLI problem using forceful interactions with the swarm as its guiding information source. The prober's policy is modeled using the simplified structure state space sequence (S5) model and trained with the Proximal Policy Optimization (PPO) algorithm. The prober only has access to the information on the relative positions of the other agents. We evaluate our approach through extensive simulations using two performance metrics and validate the sim-to-real transfer through robot experiments. Results on evaluating the performance in 10,000 different testing scenarios demonstrate that our method finds the leader's identity in the vast majority (95.7%) of the cases, regardless of the initial leader selection during training. The proposed system represents the first instance of learning-based automatic identification of leader agents in a swarm. This capability is crucial for enabling efficient and robust human-swarm interaction, understanding artificial swarm behaviors, and analyzing latent behaviors in biological swarms in nature.

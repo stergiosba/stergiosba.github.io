@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/bio",
+  "source": "@site/src/pages/bio.mdx",
+  "title": "Stergios E. Bachoumas",
+  "description": "<div style={{",
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "unlisted": false
+}

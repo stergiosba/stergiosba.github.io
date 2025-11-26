@@ -1,7 +1,7 @@
 {
   "id": "intro",
-  "title": "Tutorial Intro",
-  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "title": "Projects",
+  "description": "During my PhD I have had the pleasure of working on many different problems at the Human Oriented Robotics and Control lab at the University of Delaware.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -11,13 +11,13 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 0,
   "frontMatter": {
-    "sidebar_position": 1
+    "sidebar_position": 0
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Tutorial - Basics",
-    "permalink": "/docs/category/tutorial---basics"
+    "title": "Swarm Publications",
+    "permalink": "/docs/category/swarm-publications"
   }
 }

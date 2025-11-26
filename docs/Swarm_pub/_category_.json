@@ -1,0 +1,8 @@
+{
+  "label": "Swarm Publications",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Using an external intelligent probing agent to identify the leader of a swarm."
+  }
+}

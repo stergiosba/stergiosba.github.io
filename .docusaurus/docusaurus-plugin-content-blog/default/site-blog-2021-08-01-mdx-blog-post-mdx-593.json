@@ -13,7 +13,6 @@
       "description": "Docusaurus tag description"
     }
   ],
-  "readingTime": 0.27,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -47,9 +46,5 @@
   "prevItem": {
     "title": "Welcome",
     "permalink": "/blog/welcome"
-  },
-  "nextItem": {
-    "title": "Long Blog Post",
-    "permalink": "/blog/long-blog-post"
   }
 }

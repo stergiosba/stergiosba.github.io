@@ -1,0 +1,23 @@
+{
+  "id": "bio/bio",
+  "title": "Stergios E. Bachoumas",
+  "description": "<div style={{",
+  "source": "@site/docs/bio/bio.mdx",
+  "sourceDirName": "bio",
+  "slug": "/bio/",
+  "permalink": "/docs/bio/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/bio/bio.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Tutorial Intro",
+    "permalink": "/docs/intro"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "Swarm/icra",
+  "title": "Learning Adversarial Policies for Swarm Leader Identification Using a Probing Agent",
+  "description": "Venue: 2025 IEEE International Conference on Robotics and Automation (ICRA).",
+  "source": "@site/docs/Swarm/icra.md",
+  "sourceDirName": "Swarm",
+  "slug": "/Swarm/icra",
+  "permalink": "/docs/Swarm/icra",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Swarm/icra.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Swarm",
+    "permalink": "/docs/category/swarm"
+  },
+  "next": {
+    "title": "On Swarm Leader Identification using Probing Policies",
+    "permalink": "/docs/Swarm/tase"
+  }
+}

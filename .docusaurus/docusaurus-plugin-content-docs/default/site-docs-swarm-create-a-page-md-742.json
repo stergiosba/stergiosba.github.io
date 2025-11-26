@@ -1,0 +1,27 @@
+{
+  "id": "Swarm/create-a-page",
+  "title": "Create a Page",
+  "description": "Add Markdown or React files to src/pages to create a standalone page:",
+  "source": "@site/docs/Swarm/create-a-page.md",
+  "sourceDirName": "Swarm",
+  "slug": "/Swarm/create-a-page",
+  "permalink": "/docs/Swarm/create-a-page",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Swarm/create-a-page.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Swarm Leader Identification",
+    "permalink": "/docs/category/swarm-leader-identification"
+  },
+  "next": {
+    "title": "Markdown Features",
+    "permalink": "/docs/Swarm/markdown-features"
+  }
+}

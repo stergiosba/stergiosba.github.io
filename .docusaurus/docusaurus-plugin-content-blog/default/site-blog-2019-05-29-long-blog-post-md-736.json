@@ -19,7 +19,6 @@
       "description": "Docusaurus tag description"
     }
   ],
-  "readingTime": 2.04,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -52,9 +51,5 @@
   "prevItem": {
     "title": "MDX Blog Post",
     "permalink": "/blog/mdx-blog-post"
-  },
-  "nextItem": {
-    "title": "First Blog Post",
-    "permalink": "/blog/first-blog-post"
   }
 }

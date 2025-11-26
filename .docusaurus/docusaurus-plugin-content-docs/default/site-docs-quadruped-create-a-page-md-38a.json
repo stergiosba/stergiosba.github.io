@@ -1,0 +1,27 @@
+{
+  "id": "Quadruped/create-a-page",
+  "title": "Create a Page",
+  "description": "Add Markdown or React files to src/pages to create a standalone page:",
+  "source": "@site/docs/Quadruped/create-a-page.md",
+  "sourceDirName": "Quadruped",
+  "slug": "/Quadruped/create-a-page",
+  "permalink": "/docs/Quadruped/create-a-page",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Quadruped/create-a-page.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quadruped",
+    "permalink": "/docs/category/quadruped"
+  },
+  "next": {
+    "title": "Create a Document",
+    "permalink": "/docs/Quadruped/create-a-document"
+  }
+}

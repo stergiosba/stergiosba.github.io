@@ -1,0 +1,27 @@
+{
+  "id": "x/x",
+  "title": "X",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/docs/x/x.md",
+  "sourceDirName": "x",
+  "slug": "/x/",
+  "permalink": "/docs/x/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/x/x.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tutorial Intro",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Tutorial - Basics",
+    "permalink": "/docs/category/tutorial---basics"
+  }
+}

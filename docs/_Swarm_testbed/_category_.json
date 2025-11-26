@@ -1,0 +1,8 @@
+{
+  "label": "ROS2 Swarm Testbed",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Created a tesbed for implementing and studying robotic swarm controllers and algorithms."
+  }
+}

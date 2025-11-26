@@ -1,0 +1,27 @@
+{
+  "id": "Swarm/foo",
+  "title": "Foo",
+  "description": "",
+  "source": "@site/docs/Swarm/foo.md",
+  "sourceDirName": "Swarm",
+  "slug": "/Swarm/foo",
+  "permalink": "/docs/Swarm/foo",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Swarm/foo.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy your site",
+    "permalink": "/docs/Swarm/deploy-your-site"
+  },
+  "next": {
+    "title": "Congratulations!",
+    "permalink": "/docs/Swarm/congratulations"
+  }
+}

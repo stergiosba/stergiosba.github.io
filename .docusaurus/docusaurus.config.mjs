@@ -28,10 +28,11 @@ export default {
     },
     "experimental_router": "browser"
   },
-  "url": "https://your-docusaurus-site.example.com",
+  "url": "https://stergiosba.github.io",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "deploymentBranch": "gh-pages",
+  "organizationName": "stergiosba",
+  "projectName": "stergiosba.github.io",
   "onBrokenLinks": "throw",
   "i18n": {
     "defaultLocale": "en",
@@ -49,20 +50,6 @@ export default {
           "sidebarPath": "./sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
-        "blog": {
-          "showReadingTime": true,
-          "feedOptions": {
-            "type": [
-              "rss",
-              "atom"
-            ],
-            "xslt": true
-          },
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-          "onInlineTags": "warn",
-          "onInlineAuthors": "warn",
-          "onUntruncatedBlogPosts": "warn"
-        },
         "theme": {
           "customCss": "./src/css/custom.css"
         }
@@ -77,22 +64,13 @@ export default {
       "disableSwitch": false
     },
     "navbar": {
-      "title": "My Site",
-      "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.svg"
-      },
+      "title": "Stergios Bachoumas",
       "items": [
         {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Tutorial"
-        },
-        {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
+          "label": "Projects"
         },
         {
           "href": "https://github.com/facebook/docusaurus",
@@ -109,7 +87,7 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "Projects",
               "to": "/docs/intro"
             }
           ]
@@ -118,16 +96,12 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "label": "Google Scholar",
+              "href": "https://scholar.google.com/citations?user=LRLwWFsAAAAJ&hl=en"
             },
             {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "X",
-              "href": "https://x.com/docusaurus"
+              "label": "LinkedIn",
+              "href": "https://www.linkedin.com/in/stergios-bachoumas/"
             }
           ]
         },
@@ -135,17 +109,13 @@ export default {
           "title": "More",
           "items": [
             {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/stergiosba"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2025 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2025 Stergios E. Bachoumas. Built with Docusaurus."
     },
     "prism": {
       "theme": {
