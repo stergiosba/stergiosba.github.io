@@ -12,7 +12,7 @@ let projects_title_label = "Projects";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Stergios Bachoumas Website',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -97,7 +97,6 @@ const config = {
             position: 'left',
             label: projects_title_label,
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -154,3 +153,4 @@ const config = {
 };
 
 export default config;
+

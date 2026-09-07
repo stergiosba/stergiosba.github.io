@@ -18,7 +18,7 @@ Please contact me directly for possible collaborations.
 # Swarm
 
 The first three years of my PhD I focused on
-- Creating a swarm research testbed to implement and study robotic swarms' algorithms.
+- Creating a swarm research testbed to implement and study algorithms of robotic swarms.
 - Developing a Deep Reinforcement Learning framework to study privacy in robotic swarms. 
 
 

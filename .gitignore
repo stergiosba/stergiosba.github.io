@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Build output
+build/
+
+# Docusaurus runtime caches
+.docusaurus/
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
