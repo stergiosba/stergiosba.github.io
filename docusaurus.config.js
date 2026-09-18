@@ -12,7 +12,7 @@ let projects_title_label = "Projects";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Stergios Bachoumas Website',
+  title: 'Stergios E. Bachoumas | Robotics Researcher',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 

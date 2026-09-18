@@ -5,10 +5,10 @@
  */
 
 /* You can override the default Infima variables here. */
-@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
 
 :root {
-  --ifm-font-family-base: 'Antic Didone', 'Georgia', 'Times New Roman', serif;
+  --ifm-font-family-base: 'Roboto Slab', 'Georgia', 'Times New Roman', serif;
   --ifm-font-family-monospace: 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas',
     'Liberation Mono', 'Courier New', monospace;
   --ifm-color-primary: #2e8555;
