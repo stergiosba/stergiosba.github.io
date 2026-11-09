@@ -98,6 +98,11 @@ const config = {
             label: projects_title_label,
           },
           {
+            to: '/resume',
+            label: 'Resume',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
