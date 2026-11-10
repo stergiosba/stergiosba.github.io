@@ -11,7 +11,8 @@
   --ifm-font-family-base: 'Roboto Slab', 'Georgia', 'Times New Roman', serif;
   --ifm-font-family-monospace: 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas',
     'Liberation Mono', 'Courier New', monospace;
-  --ifm-color-primary: #2e8555;
+  --ifm-color-primary: #7F00FF;
+  /* --ifm-color-primary: #2e8555; */
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -24,7 +25,8 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
+  /* --ifm-color-primary: #25c2a0; */
+  --ifm-color-primary: #E86100;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -42,4 +44,29 @@
   margin-right: 0.1em;
   color: #d33; /* red */
   font-weight: 700;
+}
+
+/* Publication link badges */
+.pub-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.pub-badge {
+  padding: 0.25rem 1rem;
+  border: 1.5px solid var(--ifm-color-primary);
+  border-radius: 0;
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+}
+
+.pub-badge:hover {
+  background: var(--ifm-color-primary);
+  color: #fff;
+  text-decoration: none;
 }

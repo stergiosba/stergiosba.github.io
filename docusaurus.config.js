@@ -85,7 +85,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Stergios Bachoumas',
+        title: 'About',
         // logo: {
         //   alt: 'My Site Logo',
         //   src: 'img/logo.svg',
@@ -103,7 +103,7 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/stergiosba',
             label: 'GitHub',
             position: 'right',
           },
