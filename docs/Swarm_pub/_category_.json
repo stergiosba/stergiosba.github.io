@@ -1,8 +1,9 @@
 {
-  "label": "Swarm Publications",
+  "label": "Swarm Robots",
   "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "Using an external intelligent probing agent to identify the leader of a swarm."
+    "description": "Using an external intelligent probing agent to identify the leader of a swarm.",
+    "slug": "swarm-robots"
   }
 }

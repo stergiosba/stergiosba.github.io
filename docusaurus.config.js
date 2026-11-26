@@ -13,7 +13,7 @@ let projects_title_label = "Projects";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Stergios E. Bachoumas | Robotics Researcher',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Robotics research and projects',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -42,6 +42,16 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'google-site-verification',
+        content: 'google75f28e6e17dec9f5',
+      },
+    },
+  ],
 
   presets: [
     [

@@ -1,0 +1,86 @@
+---
+sidebar_position: 5
+---
+
+import Contributions, { Card } from '@site/src/components/papers/Contributions';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+
+# SOMA: Stack-of-Objects Manipulation using a Quadruped Robot
+
+{/*<h3>2025 IEEE International Conference on Robotics and Automation (RAL)</h3> */}
+
+<img src={useBaseUrl('/img/quadruped_soma_main.png')} alt="SOMA figure" style={{flexShrink: 0, borderRadius: '8px'}}/>
+
+## Abstract
+::::tip[In one breath]
+<Tabs>
+  <TabItem value="orange" label="In one breath" default>
+    <p className="abstract-dropcap">A reinforcement learning framework enables an armless quadruped robot to actively control its base height and push with its whole body, transporting stacked objects to target positions and orientations with high precision without toppling them.</p>
+  </TabItem>
+  <TabItem value="apple" label="Full">
+    <p className="abstract-dropcap">This study introduces a novel approach to swarm leader identification (SLI) in multi-agent robot systems by employing a physical adversary interacting with the swarm in the same environment. We develop a new simulation environment to study the SLI problem and train an adversary, which we term the prober, to solve the SLI problem using forceful interactions with the swarm as its guiding information source. The prober's policy is modeled using the simplified structure state space sequence (S5) model and trained with the Proximal Policy Optimization (PPO) algorithm. The prober only has access to the information on the relative positions of the other agents. We evaluate our approach through extensive simulations using two performance metrics and validate the sim-to-real transfer through robot experiments. Results on evaluating the performance in 10,000 different testing scenarios demonstrate that our method finds the leader's identity in the vast majority (95.7%) of the cases, regardless of the initial leader selection during training. The proposed system represents the first instance of learning-based automatic identification of leader agents in a swarm. This capability is crucial for enabling efficient and robust human-swarm interaction, understanding artificial swarm behaviors, and analyzing latent behaviors in biological swarms in nature.</p>
+  </TabItem>
+</Tabs>
+::::
+
+## Contributions
+
+<Contributions>
+  <Card n="01" title="3D WHOLE-BODY PUSHING">
+    Enabled 3D whole-body pushing manipulation that prevents tipping and sliding of stacked payloads by explicitly incorporating the quadruped's base height into command tracking.
+  </Card>
+  <Card n="02" title="HIERARCHICAL RL ARCHITECTURE">
+    Constructed a high-level/low-level hierarchical reinforcement learning architecture combining an S5 encoder that compresses and retains long-horizon contact history with a Beta-distribution policy that avoids boundary bias in bounded action spaces.
+  </Card>
+  <Card n="03" title="DOMAIN RANDOMIZATION">
+    Applied domain randomization across latent physical parameters like friction and mass.
+  </Card>
+  <Card n="04" title="HARDWARE EXPERIMENTS">
+    Our method demonstrates high zero-shot generalization to unseen shapes and masses in both simulation and real-world experiments on a Unitree Go1 robot.
+  </Card>
+</Contributions>
+
+
+## Media
+<div style={{display: 'flex', gap: '1rem', flexWrap: 'wrap'}}>
+  <div style={{width: 'calc(50% - 0.5rem)', minWidth: '280px'}}>
+    <video controls autoplay loop muted playsinline width="100%">
+      <source src="/videos/single_box_sim.mp4" type="video/mp4" />
+    </video>
+    <p style={{textAlign: 'center', color: 'var(--ifm-color-emphasis-700)', fontSize: '0.9rem'}}>
+      Video 1: SOMA enables the robot to push a single 8 kg box in simulation.
+    </p>
+  </div>
+  <div style={{width: 'calc(50% - 0.5rem)', minWidth: '280px'}}>
+    <video controls autoplay loop muted playsinline width="100%">
+      <source src="/videos/stack_box_sim.mp4" type="video/mp4" />
+    </video>
+    <p style={{textAlign: 'center', color: 'var(--ifm-color-emphasis-700)', fontSize: '0.9rem'}}>
+      Video 2: SOMA enables the robot to safely push a stack of two boxes (6 kg + 2 kg) in simulation.
+    </p>
+  </div>
+</div>
+
+<video controls autoplay loop muted playsinline width="100%">
+  <source src="/videos/final_ral_video.mp4" type="video/mp4" />
+</video>
+<p style={{textAlign: 'center', color: 'var(--ifm-color-emphasis-700)', fontSize: '0.9rem'}}>
+  Video 2: SOMA enables the robot to safely push a stack of two boxes (6 kg + 2.5 kg) in the real world.
+</p>
+
+## Citation
+
+```bibtex
+@misc{bachoumas2026somastackofobjectsmanipulationusing,
+      title={SOMA: Stack-of-Objects Manipulation using a Quadruped Robot}, 
+      author={Stergios E. Bachoumas and Panagiotis Artemiadis},
+      year={2026},
+      eprint={2610.20968},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2610.20968}, 
+}
+```
